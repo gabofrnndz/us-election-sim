@@ -15,3 +15,9 @@ A static, no-build web version of the election simulator spreadsheet.
 - **Settings**: per-party swing (what-if), close-call threshold, office list, JSON export/import.
 
 Data is saved in your browser (localStorage). The Mississippi Senate sample comes from a screenshot; President rows are illustrative (approximate margins, fictional candidates); county/city/state/House rows are fictional samples. Populations and margins are approximate - verify before use.
+
+## Updates
+- Filters chain Level > State > Jurisdiction > Office > Contest; the office lists (Settings) are per level.
+- Projected-winner panel (name, ribbon, +FLIP when the seat changes party; set 'Seat held by' or mark an incumbent).
+- Election Laws tab: Electoral College (270, ME/NE, 12th Amendment), plurality/majority/RCV states, recount triggers. Informational; verify with your state election office.
+- Fonts: Barlow Condensed + Inter (Google Fonts, needs internet).
