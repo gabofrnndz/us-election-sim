@@ -21,3 +21,7 @@ Data is saved in your browser (localStorage). The Mississippi Senate sample come
 - Projected-winner panel (name, ribbon, +FLIP when the seat changes party; set 'Seat held by' or mark an incumbent).
 - Election Laws tab: Electoral College (270, ME/NE, 12th Amendment), plurality/majority/RCV states, recount triggers. Informational; verify with your state election office.
 - Fonts: Barlow Condensed + Inter (Google Fonts, needs internet).
+- Electoral College: Maine/Nebraska electors split by district automatically (district count follows the apportionment calculator); tick "Split EVs by district?" on the States tab for any other state.
+- Candidates have separate First name / Last name fields.
+- New "Congress & Electoral College" tab: Senate, House and Electoral College hemicycle seat charts (solid = called, faded = baseline estimate).
+- USA (national) contests: choose State = "US" in Data Entry. The included national President contest aggregates the state results automatically.
