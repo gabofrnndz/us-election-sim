@@ -1,0 +1,15 @@
+:root{--bg:#f4f6f9;--fg:#1b2430;--cd:#fff;--bd:#cfd6df;--ac:#1f4e8c;--mu:#566170;--wn:#8a4b00;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10151c;--fg:#e6eaf0;--cd:#18202a;--bd:#2c3744;--ac:#8fbcf2;--mu:#9aa6b5;--wn:#f0b36a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#10151c;--fg:#e6eaf0;--cd:#18202a;--bd:#2c3744;--ac:#8fbcf2;--mu:#9aa6b5;--wn:#f0b36a;color-scheme:dark}
+*{box-sizing:border-box}html,body{margin:0}body{background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,Segoe UI,Arial,sans-serif;display:flex;min-height:100vh}
+nav{width:190px;background:var(--cd);border-right:1px solid var(--bd);padding:10px;flex:none}nav h1{font-size:15px;margin:4px 6px 10px}
+nav button{display:block;width:100%;text-align:left;margin:2px 0;border:0;background:none;color:var(--fg);padding:8px;border-radius:6px;cursor:pointer;font:inherit}
+nav button.on{background:var(--ac);color:var(--bg);font-weight:600}
+main{flex:1;padding:16px;min-width:0}.banner{background:var(--cd);border:1px solid var(--wn);color:var(--wn);padding:8px 10px;border-radius:6px;margin-bottom:12px;font-size:13px}
+.card{background:var(--cd);border:1px solid var(--bd);border-radius:8px;padding:12px;margin-bottom:12px}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}.k{font-size:24px;font-weight:700}.mu{color:var(--mu);font-size:13px}
+input,select,button.b{font:inherit;padding:6px 8px;border:1px solid var(--bd);border-radius:6px;background:var(--bg);color:var(--fg);margin:2px}
+button.b{background:var(--ac);color:var(--bg);cursor:pointer;border-color:var(--ac)}button.b.s{background:none;color:var(--ac)}
+.sc{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:13px}th,td{border-bottom:1px solid var(--bd);padding:5px 7px;text-align:left;white-space:nowrap}
+.tag{border:1px solid var(--wn);color:var(--wn);border-radius:10px;padding:0 7px;font-size:12px}.bar{height:10px;background:var(--ac);border-radius:3px}
+@media(max-width:700px){body{flex-direction:column}nav{width:100%;display:flex;flex-wrap:wrap;border-right:0;border-bottom:1px solid var(--bd)}nav h1{width:100%}nav button{width:auto}}
